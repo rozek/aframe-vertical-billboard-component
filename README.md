@@ -49,6 +49,8 @@ Otherwise, load the plain script file directly
 
 Without a valid `map`, the billboard will remain invisible. If one of `width` or `height` is 0, its value will be computed from the other one (which should be > 0) and the natural aspect ratio of the map (if both values are 0, the `height` will be set to 1)
 
+Since billboards are naturally vertical objects, their `position` will not specify their center, but the middle of their lower edge - this helps positioning them programmatically.
+
 
 
 
