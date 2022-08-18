@@ -40,7 +40,7 @@
         let newMap = this.data.map
         this.Texture = new THREE.TextureLoader().load(
           newMap instanceof Image ? newMap.src : newMap,
-          (Texture) => {
+          (Texture:any) => {
             this.Material.map         = Texture
             this.Material.needsUpdate = true
 
