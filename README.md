@@ -1,2 +1,3 @@
-# aframe-billboard-component
-a simple "bilboard" component for A-Frame
+# aframe-billboard-component #
+
+a simple "billboard" component for A-Frame
