@@ -10,6 +10,28 @@ Three.js [Sprites](https://threejs.org/docs/#api/en/objects/Sprite) are planes w
 
 > Just a small note: if you like this work and plan to use it, consider "starring" this repository (you will find the "Star" button on the top right of this page), so that I know which of my repositories to take most care of.
 
+## Installation ##
+
+`aframe-billboard-component` may be used as an ECMAScript module (ESM) or explicitly loaded after the `<script>` tag for A-Frame itself.
+
+For the ESM variant, install the package into your build environment using [NPM](https://docs.npmjs.com/) with the command
+
+```
+npm install aframe-billboard-component
+```
+
+and `import` it into your code whereever needed
+
+```javascript
+import "aframe-billboard-component"
+```
+
+Otherwise, load the plain script file directly
+
+```html
+<script src="https://unpkg.com/aframe-billboard-component"></script>
+```
+
 
 
 
