@@ -32,6 +32,23 @@ Otherwise, load the plain script file directly
 <script src="https://unpkg.com/aframe-billboard-component"></script>
 ```
 
+## Properties ##
+
+`aframe-billboard-component` is an A-Frame component with the following properties:
+
+<table>
+ <tbody>
+  <tr><th>Properties</th><th>Description</th></tr>
+ </tbody>
+ <tbody>
+  <tr><td>map</td><td>either the id or the URL of an image which will be mapped onto the billboard</td></tr>
+  <tr><td>width</td><td>the billboard's width or 0</td></tr>
+  <tr><td>height</td><td>the billboard's height or 0</td></tr>
+ </tbody>
+</table>
+
+Without a valid `map`, the billboard will remain invisible. If one of `width` or `height` is 0, its value will be computed from the other one (which should be > 0) and the natural aspect ratio of the map (if both values are 0, the `height` will be set to 1)
+
 
 
 
