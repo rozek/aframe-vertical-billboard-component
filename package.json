@@ -1,7 +1,7 @@
 {
   "name": "aframe-billboard-component",
   "version": "0.1.0",
-  "description": "a simple "billboard" component for A-Frame",
+  "description": "a simple \"billboard\" component for A-Frame",
   "type": "module",
   "main": "./dist/aframe-billboard-component.js",
   "module": "./dist/aframe-billboard-component.esm.js",
