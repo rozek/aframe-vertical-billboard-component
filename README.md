@@ -6,6 +6,8 @@ Three.js [Sprites](https://threejs.org/docs/#api/en/objects/Sprite) are planes w
 
 `aframe-billboard-component` implements a simple billboard component for [A-Frame](https://github.com/aframevr/aframe/).
 
+**NPM users**: please consider the [Github README](https://github.com/rozek/aframe-billboard-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
+
 
 
 
