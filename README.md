@@ -65,9 +65,35 @@ Without a valid `map`, the billboard will remain invisible. If one of `width` or
 Since billboards are naturally vertical objects, their `position` will not specify their center, but the middle of their lower edge - this helps positioning them programmatically.
 
 
+## Example ##
 
+Here is a complete example (albeit without the HTML boilerplate)
 
+```html
+<script src="https://unpkg.com/aframe"></script>
+<script src="https://unpkg.com/aframe-hemisphere-controls"></script>
+<script src="https://unpkg.com/aframe-billboard-component"></script>
 
+<a-scene embedded
+  hemisphere-controls="position:0 0.5 4; target:0 0 0"
+  style="width:600px; height:450px"
+>
+  <a-assets>
+    <img id="Tree" src="/assets/billboards/trees/free-standing-Tree.png"/>
+  </a-assets>
+
+  <a-sky color="#ECECEC"></a-sky>
+
+  <a-plane width="4" height="4" color="#7BC8A4"
+    position="0 0 0" rotation="-90 0 0"></a-plane>
+
+  <a-entity billboard="map:#Tree; height:2" position="-2 0 0.5"></a-entity>
+  <a-entity billboard="map:#Tree; height:2" position=" 0 0 0"></a-entity>
+  <a-entity billboard="map:#Tree; height:2" position=" 2 0 -0.5"></a-entity>
+</a-scene>
+```
+
+The tree texture was made by Krzysztof Czerwiński, taken from [the freebies section of his blog](http://trzyde.blogspot.com/p/freebies_5.html) and scaled down in order to save resources - it is [free even for commercial use](https://trzyde.blogspot.com/p/license.html).
 
 ## Build Instructions ##
 
