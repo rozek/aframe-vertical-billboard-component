@@ -86,4 +86,4 @@ function updateSizeOf(Billboard) {
     Billboard.Mesh.scale.set(Width, Height, 1);
     Billboard.Mesh.position.set(0, Height / 2, 0); // affected by scale!
 }
-//# sourceMappingURL=aframe-billboard-component.esm.js.map
+//# sourceMappingURL=aframe-vertical-billboard-component.esm.js.map
