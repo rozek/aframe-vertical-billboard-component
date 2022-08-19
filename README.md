@@ -79,7 +79,7 @@ Here is a complete example (albeit without the HTML boilerplate)
   style="width:600px; height:450px"
 >
   <a-assets>
-    <img id="Tree" src="/assets/billboards/trees/free-standing-Tree.png"/>
+    <img id="Tree" src="https://raw.githubusercontent.com/rozek/aframe-vertical-billboard-component/main/free-standing-Tree.png"/>
   </a-assets>
 
   <a-sky color="#ECECEC"></a-sky>
