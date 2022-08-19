@@ -1,40 +1,40 @@
-# aframe-billboard-component #
+# aframe-vertical-billboard-component #
 
-a simple "billboard" component for A-Frame
+a simple vertical "billboard" component for A-Frame
 
 Three.js [Sprites](https://threejs.org/docs/#api/en/objects/Sprite) are planes which always face the camera - but sometimes, the vertical axis of such objects should keep pointing upwards, regardless of the current camera position: that's what "billboards" are good for.
 
-`aframe-billboard-component` implements a simple billboard component for [A-Frame](https://github.com/aframevr/aframe/).
+`aframe-vertical-billboard-component` implements a simple vertically oriented billboard component for [A-Frame](https://github.com/aframevr/aframe/).
 
-**NPM users**: please consider the [Github README](https://github.com/rozek/aframe-billboard-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
+**NPM users**: please consider the [Github README](https://github.com/rozek/aframe-vertical-billboard-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
 > Just a small note: if you like this work and plan to use it, consider "starring" this repository (you will find the "Star" button on the top right of this page), so that I know which of my repositories to take most care of.
 
 ## Installation ##
 
-`aframe-billboard-component` may be used as an ECMAScript module (ESM) or explicitly loaded after the `<script>` tag for A-Frame itself.
+`aframe-vertical-billboard-component` may be used as an ECMAScript module (ESM) or explicitly loaded after the `<script>` tag for A-Frame itself.
 
 For the ESM variant, install the package into your build environment using [NPM](https://docs.npmjs.com/) with the command
 
 ```
-npm install aframe-billboard-component
+npm install aframe-vertical-billboard-component
 ```
 
 and `import` it into your code whereever needed
 
 ```javascript
-import "aframe-billboard-component"
+import "aframe-vertical-billboard-component"
 ```
 
 Otherwise, load the plain script file directly
 
 ```html
-<script src="https://unpkg.com/aframe-billboard-component"></script>
+<script src="https://unpkg.com/aframe-vertical-billboard-component"></script>
 ```
 
 ## Properties ##
 
-`aframe-billboard-component` is an A-Frame component with the following properties:
+`aframe-vertical-billboard-component` is an A-Frame component with the following properties:
 
 <table>
  <tbody>
@@ -49,7 +49,7 @@ Otherwise, load the plain script file directly
 
 ## Usage ##
 
-Once loaded or imported, `aframe-billboard-component` may be used as a component of a plain A-Frame entity
+Once loaded or imported, `aframe-vertical-billboard-component` may be used as a component of a plain A-Frame entity
 
 ```html
 <a-scene>
@@ -72,7 +72,7 @@ Here is a complete example (albeit without the HTML boilerplate)
 ```html
 <script src="https://unpkg.com/aframe"></script>
 <script src="https://unpkg.com/aframe-hemisphere-controls"></script>
-<script src="https://unpkg.com/aframe-billboard-component"></script>
+<script src="https://unpkg.com/aframe-vertical-billboard-component"></script>
 
 <a-scene embedded
   hemisphere-controls="position:0 0.5 4; target:0 0 0"
@@ -101,7 +101,7 @@ You may easily build this package yourself.
 
 Just install [NPM](https://docs.npmjs.com/) according to the instructions for your platform and follow these steps:
 
-1. either clone this repository using [git](https://git-scm.com/) or [download a ZIP archive](https://github.com/rozek/aframe-billboard-component/archive/refs/heads/main.zip) with its contents to your disk and unpack it there 
+1. either clone this repository using [git](https://git-scm.com/) or [download a ZIP archive](https://github.com/rozek/aframe-vertical-billboard-component/archive/refs/heads/main.zip) with its contents to your disk and unpack it there 
 2. open a shell and navigate to the root directory of this repository
 3. run `npm install` in order to install the complete build environment
 4. execute `npm run build` to create a new build
