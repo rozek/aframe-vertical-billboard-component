@@ -107,6 +107,8 @@ Here is a complete example (albeit without the HTML boilerplate)
 </a-scene>
 ```
 
+![Example Screenshot](screenshot.png)
+
 The tree texture was made by Krzysztof Czerwiński, taken from [the freebies section of his blog](http://trzyde.blogspot.com/p/freebies_5.html) and scaled down in order to save resources - it is [free even for commercial use](https://trzyde.blogspot.com/p/license.html).
 
 ## Build Instructions ##
