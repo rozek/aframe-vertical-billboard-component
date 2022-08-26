@@ -1,7 +1,7 @@
 {
   "name": "aframe-vertical-billboard-component",
-  "version": "0.1.0",
-  "description": "a simple vertical \"billboard\" component for A-Frame",
+  "version": "0.1.1",
+  "description": "a simple vertical \"billboard\" component and primitive for A-Frame",
   "type": "module",
   "main": "./dist/aframe-vertical-billboard-component.js",
   "module": "./dist/aframe-vertical-billboard-component.esm.js",
@@ -30,7 +30,8 @@
     "three-js",
     "threejs",
     "billboard",
-    "component"
+    "component",
+    "primitive"
   ],
   "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
   "license": "MIT",
