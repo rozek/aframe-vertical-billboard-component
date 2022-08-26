@@ -107,3 +107,21 @@
     Billboard.Mesh.position.set(0,Height/2,0) // affected by scale!
   }
 
+/**** define a primitive for the "billboard" component (if not already present) ****/
+
+  if (AFRAME.primitives.primitives['a-billboard'] == null) {
+    AFRAME.registerPrimitive('a-billboard', {
+      defaultComponents: {
+        billboard:{}
+      },
+
+      mappings: {
+        map:    'billboard.map',
+        width:  'billboard.width',
+        height: 'billboard.height',
+      }
+    })
+  } else {
+    console.warn('an A-Frame primitive called "a-billboard" exists already')
+  }
+
