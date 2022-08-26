@@ -101,9 +101,9 @@ Here is a complete example (albeit without the HTML boilerplate)
   <a-plane width="4" height="4" color="#7BC8A4"
     position="0 0 0" rotation="-90 0 0"></a-plane>
 
-  <a-entity billboard="map:#Tree; height:2" position="-2 0 0.5"></a-entity>
-  <a-entity billboard="map:#Tree; height:2" position=" 0 0 0"></a-entity>
-  <a-entity billboard="map:#Tree; height:2" position=" 2 0 -0.5"></a-entity>
+  <a-billboard map="#Tree" height="2" position="-2 0 0.5"></a-billboard>
+  <a-billboard map="#Tree" height="2" position=" 0 0 0"></a-billboard>
+  <a-billboard map="#Tree" height="2" position=" 2 0 -0.5"></a-billboard>
 </a-scene>
 ```
 
