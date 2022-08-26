@@ -4,7 +4,7 @@ a simple vertical "billboard" component and primitive for A-Frame
 
 Three.js [Sprites](https://threejs.org/docs/#api/en/objects/Sprite) are planes which always face the camera - but sometimes, the vertical axis of such objects should keep pointing upwards, regardless of the current camera position: that's what "billboards" are good for.
 
-`aframe-vertical-billboard-component` implements a simple vertically oriented billboard component for [A-Frame](https://github.com/aframevr/aframe/).
+`aframe-vertical-billboard-component` implements a simple vertically oriented billboard component and primitive for [A-Frame](https://github.com/aframevr/aframe/).
 
 **NPM users**: please consider the [Github README](https://github.com/rozek/aframe-vertical-billboard-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
@@ -47,6 +47,8 @@ Otherwise, load the plain script file directly
  </tbody>
 </table>
 
+Additionally, this module defines an A-Frame primitive named `a-billboard` for this component which maps its attributes `map`, `width` and `height` to component properties of the same name (see usage below)
+
 ## Usage ##
 
 Once loaded or imported, `aframe-vertical-billboard-component` may be used as a component of a plain A-Frame entity
@@ -64,6 +66,18 @@ Without a valid `map`, the billboard will remain invisible. If one of `width` or
 
 Since billboards are naturally vertical objects, their `position` will not specify their center, but the middle of their lower edge - this helps positioning them programmatically.
 
+### Primitive ###
+
+Alternatively, the primitive `a-billboard` may be used in order to get a more compact code:
+
+```html
+<a-scene>
+  <a-assets>
+    <img id="BillboardTexture" src="..."/>
+  </a-assets>
+  <a-billboard map="#BillboardTexture" height="2" position="0 0 0"></a-billboard>
+</a-scene>
+```
 
 ## Example ##
 
