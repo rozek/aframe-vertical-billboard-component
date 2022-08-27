@@ -6,6 +6,8 @@ Three.js [Sprites](https://threejs.org/docs/#api/en/objects/Sprite) are planes w
 
 `aframe-vertical-billboard-component` implements a simple vertically oriented billboard component and primitive for [A-Frame](https://github.com/aframevr/aframe/).
 
+![Example Screenshot](screenshot.png)
+
 **NPM users**: please consider the [Github README](https://github.com/rozek/aframe-vertical-billboard-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
 > Just a small note: if you like this work and plan to use it, consider "starring" this repository (you will find the "Star" button on the top right of this page), so that I know which of my repositories to take most care of.
@@ -106,8 +108,6 @@ Here is a complete example (albeit without the HTML boilerplate)
   <a-billboard map="#Tree" height="2" position=" 2 0 -0.5"></a-billboard>
 </a-scene>
 ```
-
-![Example Screenshot](screenshot.png)
 
 The tree texture was made by Krzysztof Czerwiński, taken from [the freebies section of his blog](http://trzyde.blogspot.com/p/freebies_5.html) and scaled down in order to save resources - it is [free even for commercial use](https://trzyde.blogspot.com/p/license.html).
 
