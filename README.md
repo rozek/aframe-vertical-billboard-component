@@ -91,16 +91,16 @@ Here is a complete example (albeit without the HTML boilerplate)
 <script src="https://unpkg.com/aframe-vertical-billboard-component"></script>
 
 <a-scene embedded
-  hemisphere-controls="position:0 0.5 4; target:0 0 0"
+  hemisphere-controls="position:0 0.5 4; target:0 1 0"
   style="width:600px; height:450px"
 >
   <a-assets>
     <img id="Tree" src="https://raw.githubusercontent.com/rozek/aframe-vertical-billboard-component/main/free-standing-Tree.png"/>
   </a-assets>
 
-  <a-sky color="#ECECEC"></a-sky>
+  <a-sky color="#555555"></a-sky>
 
-  <a-plane width="4" height="4" color="#7BC8A4"
+  <a-plane width="1000" height="1000" color="#555555"
     position="0 0 0" rotation="-90 0 0"></a-plane>
 
   <a-billboard map="#Tree" height="2" position="-2 0 0.5"></a-billboard>
