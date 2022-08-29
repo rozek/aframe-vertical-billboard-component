@@ -101,7 +101,8 @@ Here is a complete example (albeit without the HTML boilerplate)
   <a-sky color="#555555"></a-sky>
 
   <a-plane width="1000" height="1000" color="#555555"
-    position="0 0 0" rotation="-90 0 0"></a-plane>
+    position="0 0 0" rotation="-90 0 0"
+  ></a-plane>
 
   <a-billboard map="#Tree" height="2" position="-2 0 0.5"></a-billboard>
   <a-billboard map="#Tree" height="2" position=" 0 0 0"></a-billboard>
